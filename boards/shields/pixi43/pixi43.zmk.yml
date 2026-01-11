@@ -1,0 +1,9 @@
+file_format: "1"
+id: pixi43
+name: pixi43
+type: shield
+url: https://github.com/keebJP/zmk-config-pixi43
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  

@@ -1,0 +1,4 @@
+name: pixi43
+build:
+  settings:
+    board_root: .

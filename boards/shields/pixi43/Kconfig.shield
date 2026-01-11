@@ -1,0 +1,5 @@
+config SHIELD_PIXI43_R
+    def_bool $(shields_list_contains,pixi43_R)
+
+config SHIELD_PIXI43_L
+    def_bool $(shields_list_contains,pixi43_L)

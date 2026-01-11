@@ -1,0 +1,22 @@
+if SHIELD_PIXI43_R
+
+config ZMK_KEYBOARD_NAME
+    default "pixi43_R"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_PIXI43_L
+
+config ZMK_KEYBOARD_NAME
+    default "pixi43_L"
+
+config ZMK_SPLIT
+    default y
+
+endif

@@ -113,10 +113,10 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 6 Q  &kp L         &kp U         &kp COMMA                    &kp PERIOD                                                          &kp Y        &kp W               &kp R        &kp Y  &kp P
-&kp E               &kp I         &kp A         &lt_to_layer_0 10 O          &kp MINUS      &kp LS(LG(S))            &kp MINUS                   &kp K        &lt_to_layer_0 9 T  &mt RCTRL N  &kp S  &lt_to_layer_0 5 H
-&mt LEFT_SHIFT J    &kp X         &kp C         &kp V                        &kp LS(SLASH)  &kp LG(S)                &kp SEMICOLON               &kp G        &kp D               &kp M        &kp Z  &kp B
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 7 INT_HENKAN  &lt 2 SPACE    &lt_to_layer_0 8 F7      &lt_to_layer_0 7 BACKSPACE  &lt 1 ENTER                                          &kp DEL
+&lt_to_layer_0 6 Q  &kp L         &mt BACKSPACE U      &kp COMMA                    &kp PERIOD                                                          &kp Y        &kp W               &kp R                &kp Y  &kp P
+&kp E               &mt RCTRL I   &lt_to_layer_0 12 A  &lt_to_layer_0 10 O          &kp MINUS      &kp LS(LG(S))            &kp MINUS                   &kp K        &lt_to_layer_0 9 T  &lt_to_layer_0 11 N  &kp S  &lt_to_layer_0 5 H
+&mt LEFT_SHIFT J    &kp X         &kp C                &kp V                        &kp LS(SLASH)  &kp LG(S)                &kp SEMICOLON               &kp G        &kp D               &kp M                &kp Z  &kp B
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT         &lt_to_layer_0 7 INT_HENKAN  &lt 2 SPACE    &lt_to_layer_0 8 F7      &lt_to_layer_0 7 BACKSPACE  &lt 1 ENTER                                                  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -215,6 +215,15 @@
         };
 
         layer_11 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        layer_12 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans

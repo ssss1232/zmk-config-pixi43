@@ -81,7 +81,152 @@
 
         OpenGPT {
             bindings = <&kp LC(LA(Z))>;
-            key-positions = <13 12 11>;
+            key-positions = <2 3>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        Japanese {
+            bindings = <&kp LANG1>;
+            key-positions = <41 18>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        English {
+            bindings = <&kp LANG2>;
+            key-positions = <13 38>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        copy {
+            bindings = <&kp V>;
+            key-positions = <12 38>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        SelectAll {
+            bindings = <&kp LC(A)>;
+            key-positions = <10 11>;
+        };
+
+        Cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <11 38>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        Search {
+            bindings = <&kp LC(F)>;
+            key-positions = <6 41>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        Undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <41 19>;
+            layers = <0>;
+            timeout-ms = <40>;
+        };
+
+        Redo {
+            bindings = <&kp LC(Y)>;
+            key-positions = <41 20>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        SelectLeft {
+            bindings = <&kp LS(LEFT)>;
+            key-positions = <34 35>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        SelectRight {
+            bindings = <&kp LS(RIGHT)>;
+            key-positions = <35 36>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        CreateNewVirtualDesktop {
+            bindings = <&kp LC(LG(D))>;
+            key-positions = <8 9 7>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        CloseCurrentVirtualDesktop {
+            bindings = <&kp LG(LC(LS(F4)))>;
+            key-positions = <6 7 8 9>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        SwitchToTheDesktopOnTheRight {
+            bindings = <&kp LG(LC(RIGHT))>;
+            key-positions = <9 8>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        SwitchToTheDesktopOnTheLeft {
+            bindings = <&kp LC(LG(LEFT))>;
+            key-positions = <8 7>;
+        };
+
+        MaximizeWindow {
+            bindings = <&kp LG(UP)>;
+            key-positions = <41 30>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        MinimizeWindow {
+            bindings = <&kp LG(DOWN)>;
+            key-positions = <41 33>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        SnapWindowLeft {
+            bindings = <&kp LG(LEFT)>;
+            key-positions = <41 31>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        SnapWindowRight {
+            bindings = <&kp LG(RIGHT)>;
+            key-positions = <41 32>;
+            timeout-ms = <40>;
+            slow-release;
+            layers = <0>;
+        };
+
+        SwitchActiveWindow {
+            bindings = <&kp RA(TAB)>;
+            key-positions = <41 21>;
             timeout-ms = <40>;
             slow-release;
             layers = <0>;
@@ -114,8 +259,8 @@
         default_layer {
             bindings = <
 &lt_to_layer_0 6 Q  &kp L         &mt BACKSPACE U      &kp COMMA                    &kp PERIOD                                                          &kp Y        &kp W               &kp R                &kp Y           &kp P
-&mt LEFT_SHIFT E    &mt RCTRL I   &lt_to_layer_0 12 A  &lt_to_layer_0 10 O          &kp MINUS      &kp LS(LG(S))            &kp MINUS                   &kp K        &lt_to_layer_0 9 T  &lt_to_layer_0 11 N  &mt LEFT_GUI S  &lt_to_layer_0 5 H
-&mt LEFT_SHIFT J    &kp X         &kp C                &kp V                        &kp LS(SLASH)  &kp LG(S)                &kp SEMICOLON               &kp G        &kp D               &kp M                &kp Z           &kp B
+&mt LEFT_SHIFT E    &mt RCTRL I   &lt_to_layer_0 12 A  &lt_to_layer_0 10 O          &kp MINUS      &kp LS(LG(S))            &kp LG(LS(S))               &kp K        &lt_to_layer_0 9 T  &lt_to_layer_0 11 N  &mt LEFT_GUI S  &lt_to_layer_0 5 H
+&mt LEFT_SHIFT J    &kp X         &kp C                &kp V                        &kp LS(SLASH)  &kp LG(N1)               &kp SEMICOLON               &kp G        &kp D               &kp M                &kp Z           &kp B
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT         &lt_to_layer_0 7 INT_HENKAN  &lt 2 SPACE    &lt_to_layer_0 8 F7      &lt_to_layer_0 7 BACKSPACE  &lt 1 ENTER                                                           &kp DEL
             >;
 

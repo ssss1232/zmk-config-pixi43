@@ -71,7 +71,7 @@
             layers = <0>;
         };
 
-        WindowsVoiceInput {
+        Windows_Voice_Input {
             bindings = <&kp LG(H)>;
             key-positions = <12 13>;
             timeout-ms = <40>;
@@ -230,6 +230,16 @@
             timeout-ms = <40>;
             slow-release;
             layers = <0>;
+        };
+
+        MoveWindowToRightMonitor {
+            bindings = <&kp LS(LG(RIGHT))>;
+            key-positions = <14 38>;
+        };
+
+        CloseApplication {
+            bindings = <&kp LA(F4)>;
+            key-positions = <10 38>;
         };
     };
 

@@ -275,10 +275,10 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 6 Q  &kp L         &mt BACKSPACE U      &kp COMMA                    &kp PERIOD                                                          &kp Y        &kp W               &kp R                &kp Y           &kp P
-&mt LEFT_SHIFT E    &mt RCTRL I   &lt_to_layer_0 12 A  &lt_to_layer_0 10 O          &kp MINUS      &kp LS(LG(S))            &kp LG(LS(S))               &kp K        &lt_to_layer_0 9 T  &lt_to_layer_0 11 N  &mt LEFT_GUI S  &lt_to_layer_0 5 H
-&mt LEFT_SHIFT J    &kp X         &kp C                &kp V                        &kp LS(SLASH)  &kp LG(N1)               &kp DELETE                  &kp G        &kp D               &kp M                &kp Z           &kp B
-&lt_to_layer_0 6 A  &kp LEFT_WIN  &kp LEFT_ALT         &lt_to_layer_0 1 INT_HENKAN  &lt 3 SPACE    &lt_to_layer_0 8 F7      &lt_to_layer_0 7 BACKSPACE  &lt 2 ENTER                                                           &kp DEL
+&lt_to_layer_0 6 Q  &kp L         &mt BACKSPACE U      &kp BACKSPACE                &kp PERIOD                                                      &kp Y        &kp W               &kp R                &kp Y           &kp P
+&mt LEFT_SHIFT E    &mt RCTRL I   &lt_to_layer_0 12 A  &lt_to_layer_0 10 O          &kp MINUS      &kp LS(LG(S))            &kp LG(LS(S))           &kp K        &lt_to_layer_0 9 T  &lt_to_layer_0 11 N  &mt LEFT_GUI S  &lt_to_layer_0 5 H
+&mt LEFT_SHIFT J    &kp X         &kp C                &kp V                        &kp LS(SLASH)  &kp LG(N1)               &kp DELETE              &kp G        &kp D               &kp M                &kp Z           &kp B
+&lt_to_layer_0 6 A  &kp LEFT_WIN  &kp LEFT_ALT         &lt_to_layer_0 1 INT_HENKAN  &lt 3 SPACE    &lt_to_layer_0 8 F7      &lt_to_layer_0 7 COMMA  &lt 2 ENTER                                                           &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -342,10 +342,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp F18      &kp LS(F15)  &kp LS(F16)  &kp F13  &trans                           &trans  &trans  &trans  &trans  &trans
+&kp F15      &kp LC(F13)  &kp LS(F14)  &kp F14  &trans       &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(F17)  &kp LS(F18)  &kp F16      &kp F17  &trans       &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans       &trans       &trans   &kp LS(F13)  &trans      &trans  &trans                          &trans
             >;
         };
 

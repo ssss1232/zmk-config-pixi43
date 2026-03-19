@@ -79,14 +79,6 @@
             layers = <0>;
         };
 
-        OpenGPT {
-            bindings = <&kp LC(LA(Z))>;
-            key-positions = <2 3>;
-            timeout-ms = <40>;
-            slow-release;
-            layers = <0>;
-        };
-
         Japanese {
             bindings = <&kp LANG1>;
             key-positions = <41 18>;
@@ -194,7 +186,7 @@
 
         MaximizeWindow {
             bindings = <&kp LG(UP)>;
-            key-positions = <41 30>;
+            key-positions = <38 25>;
             timeout-ms = <40>;
             slow-release;
             layers = <0>;
@@ -202,7 +194,7 @@
 
         MinimizeWindow {
             bindings = <&kp LG(DOWN)>;
-            key-positions = <41 33>;
+            key-positions = <38 22>;
             timeout-ms = <40>;
             slow-release;
             layers = <0>;
@@ -210,7 +202,7 @@
 
         SnapWindowLeft {
             bindings = <&kp LG(LEFT)>;
-            key-positions = <41 31>;
+            key-positions = <38 23>;
             timeout-ms = <40>;
             slow-release;
             layers = <0>;
@@ -218,13 +210,13 @@
 
         SnapWindowRight {
             bindings = <&kp LG(RIGHT)>;
-            key-positions = <41 32>;
+            key-positions = <38 24>;
             timeout-ms = <40>;
             slow-release;
             layers = <0>;
         };
 
-        SwitchActiveWindow {
+        SwitchActiveWindowRight {
             bindings = <&kp RA(TAB)>;
             key-positions = <41 21>;
             timeout-ms = <40>;
@@ -239,7 +231,13 @@
 
         CloseApplication {
             bindings = <&kp LA(F4)>;
+            key-positions = <38 11>;
+        };
+
+        SwitchActiveWindowLeft {
+            bindings = <&kp LA(TAB)>;
             key-positions = <10 38>;
+            timeout-ms = <40>;
         };
     };
 

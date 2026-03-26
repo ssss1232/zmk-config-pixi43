@@ -287,10 +287,10 @@
 
         default_layer {
             bindings = <
-&lt_to_layer_0 6 Q  &kp L         &mt BACKSPACE U      &kp BACKSPACE        &kp PERIOD                                                         &kp Q    &kp W               &kp R                &kp Y           &kp P
-&mt LEFT_SHIFT E    &mt RCTRL I   &lt_to_layer_0 12 A  &lt_to_layer_0 10 O  &kp MINUS      &kp LS(LG(S))               &kp LG(LS(S))           &kp K    &lt_to_layer_0 9 T  &lt_to_layer_0 11 N  &mt LEFT_GUI S  &lt_to_layer_0 5 H
-&mt LEFT_SHIFT J    &kp X         &kp C                &kp V                &kp LS(SLASH)  &kp LG(N1)                  &kp DELETE              &kp G    &kp D               &kp M                &kp Z           &lt_to_layer_0 6 B
-&lt_to_layer_0 6 A  &kp LEFT_WIN  &kp LEFT_ALT         &lt_to_layer_0 1 F7  &lt 3 G        &lt_to_layer_0 8 SPACE      &lt_to_layer_0 7 ENTER  &lt 2 K                                                           &kp DEL
+&lt_to_layer_0 6 Q  &kp L         &mt BACKSPACE U      &kp BACKSPACE        &kp PERIOD                                                         &kp Q    &kp W               &kp R               &kp Y           &kp P
+&mt LEFT_SHIFT E    &mt RCTRL I   &lt_to_layer_0 12 A  &lt_to_layer_0 10 O  &kp MINUS      &kp LS(LG(S))               &kp LG(LS(S))           &kp K    &lt_to_layer_0 9 T  &lt_to_layer_0 5 N  &mt LEFT_GUI S  &lt_to_layer_0 5 H
+&mt LEFT_SHIFT J    &kp X         &kp C                &kp V                &kp LS(SLASH)  &kp LG(N1)                  &kp DELETE              &kp G    &kp D               &kp M               &kp Z           &lt_to_layer_0 6 B
+&lt_to_layer_0 6 A  &kp LEFT_WIN  &kp LEFT_ALT         &lt_to_layer_0 1 F7  &lt 3 G        &lt_to_layer_0 8 SPACE      &lt_to_layer_0 7 ENTER  &lt 2 K                                                          &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
